@@ -1,4 +1,4 @@
-/* reset */
+/* RESET */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,230 +8,22 @@
 img {
     max-width: 100%;
 }
-/* reset */
+/* RESET END */
 
-/* common */
+/* COMMON */
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-/* common */
+/* COMMON */
  
-/* header */
+/* HEADER */
+/* HEADER END */
 
-.header-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #255EE9;
-    height: 80px;
-}
+/* HERO HEADER */
+/* HERO HEADER END */
 
-.logo-header {
-    padding-top: 10px;
- }
+/* MAIN */
+/* MAIN END */
 
-.header-button {
-    font-weight: 700;
-    padding: 10px 20px;
-    border-radius: 100px;
-    background: #ffffff;
-    border: 1px solid;
-    border-color: #255EE9;
-    font-size: 0,2rem;
-}
-
-.list-navbar {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    color: #ffffff;
-}
-
-.list-item {
-    font-size: 0,3rem;
-    padding: 16px;
-}
-
-.item-logo {
-    align-items: center;
-    width: 280px;
-}
-   
-.item-navbar {
-    width: 600px;
-}
-.item-login {
-    width: 300px;
-}
-.text-settings {
-    padding-top: 6px;
-    font-weight: 100;
-    font-size: 0,2rem;
-}
-/* header end */
-
-/* main */
-
-/* first section */
-.first-section-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../IMG/jumbo.png);
-    max-width: 100%;
-    height: 500px;
-}
-
-.item-first-section {
-
-    max-width: 100%;
-}
-
-.text-first-section {
-    color: #ffffff;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.paragraph-first-section {
-    color: #ffffff;
-    line-height: 20px;
-}
-
-.paragraph-first-section {
-    text-align: center;
-}
-/* first section end */
-
-/* second section */
-.second-section-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
-    max-width: 100%;
-    height: 600px;
-}
-.pink-second-box {
-    background-color: #a1478f;
-    width: 500px;
-    height: 500px;
-    border-style: dashed;
-}
-.blue-second-box {
-    background-image: url(../IMG/item1.svg);
-    width: 700px;
-    height: 500px;
-}
-/* second section end */
-
-/* third section */
-.section-container-similar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #c6c6c6;
-    max-width: 100%;
-    height: 600px;
-}
-.pink-third-box {
-    background-color: #a1478f;
-    width: 500px;
-    height: 500px;
-    border-style: dashed;
-}
-.blue-third-box {
-    background-image: url(../IMG/item2.svg);
-    width: 700px;
-    height: 500px;
-}
-/* third section end */
-
-/* fourth section */
-/* same as second section */
-.img-fourth-section {
-    width: 500px;
-    height: 500px;
-}
-/* fourth section end */
-
-/* fifth section */
-.fifth-section-container {
-    height: 900px;
-}
-.item-fifth-section {
-    background-color: #6fa06a;
-    width: 1200px;
-    height: 800px;
-    border-style: dashed;
-}
-/* fifth section end */
-
-/* sixth section */
-.sixth-section-container {
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items: center;
-    background-color: #262626;
-    max-width: 100%;
-    height: 600px;
-    padding-bottom: 30px;
-}
-.item-1-sixth-section {
-    background-color: #f571a1;
-    width: 400px;
-    height: 550px;
-    border: 2px;
-    border-style: dashed; 
-}
-.item-2-sixth-section {
-    background-color: #00cbe2;
-    width: 200px;
-    height: 550px;
-    border: 2px;
-    border-style: dashed;
-    border-color: #ffffff;
-}
-/* sixth section end */
-
-/* main end */
-
-/* footer */
-.div-container {
-    background-color: rgb(38, 38, 38);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 90px;
-}
-
-.line {
-    width: 53%;
-    border: 1px solid #c4c4c4;
-}
-
-.box-green {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #7fffd4;
-    width: 1200px;
-    height: 60px;
-}
-
-.button-footer {
-    height: 30px;
-    width: 6%;
-    border: 2px;
-    border-style: dashed;
-    border-color: #000000;
-}
-/* footer end */
+/* FOOTER */
+/* FOOTER END */
