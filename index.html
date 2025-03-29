@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!--meta tag-->
     <meta charset="UTF-8">
@@ -8,7 +9,7 @@
     <meta name="description" content="HTML,CSS,layout,Discord">
     <!--meta tag-->
 
-    <title>Discord-exercise-Garlaschini</title>
+    <title>Discord-Garlaschini</title>
 
     <!-- icon font link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -21,39 +22,184 @@
 
 <body>
     <!-- header -->
-    <header>
-        <div class="header-container">
-
+    <header class="header flex center-between">
+        <div class="logo">
+            <img src="./IMG/logo.svg" alt="logo-discord">
+        </div>
+        <div class="navbar">
+            <ul class="list flex center-list">
+                <li>Scarica</li>
+                <li>Perché Discord</li>
+                <li>Nitro</li>
+                <li>Sicurezza</li>
+                <li>Assistenza</li>
+            </ul>
+        </div>
+        <div class="btn-login flex flex-btn">
+            <a class="white-btn">Accedi</a>
         </div>
     </header>
     <!-- header end -->
 
     <!-- hero header -->
-   <section>
-            <div class="hero-box">
-                <h2 class="title text-header-align">Il tuo posto per parlare</h2>
-                <p class="paragraph text-header-align">Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale,
-                    <br>o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme,
-                    <br>Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
-                </p>
-                <div class="buttons">
-                <a class="button-white mac-button">&downarrow; Scarica per Mac</a>
-                <a class="button-dark">Apri Discord nel tuo browser</a>
-                </div>
+    <div class="container bg-blue py-40">
+        <div class="bg-pink">
+            <h1 class="hero-title">Il tuo posto per parlare</h1>
+            <p class="hero-paragraph">Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale,
+                <br>o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme,
+                <br>Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
+            </p>
+            <div class="btn-hero">
+            <a class="btn-hero-white">&downarrow; Scarica per Mac</a>
+            <a class="btn-hero-black">Apri Discord nel tuo browser</a>
             </div>
-   </section>
+        </div>
+    </div>
     <!-- hero header end -->
 
     <!-- main -->
     <main>
-        <div></div>
+        <!-- un luogo a invito section -->
+         <div class="container section-ct">
+         <div class="col-60">
+            <img src="./IMG/item1.svg" alt="item1">
+         </div>
+         <div class="col-40">
+            <h2 class="title-item">Un luogo a invito
+                <br>con tutto lo
+                <br>spazio
+                <br>necessario per
+                <br>parlare
+            </h2>
+
+            <p class="paragraph-item">I server Discord sono organizzati in canali
+            <br>tematici in cui puoi collaborare, condividere o
+            <br>semplicemente parlare della tua giornata
+            <br>senza intasare una chat di gruppo.
+            </p>
+         </div>
+        </div>
+        <!-- un luogo a invito section end -->
+
+        <!-- dove trovarsi section -->
+        <div class="container section-ct section-ct-grey">
+            <div class="col-40">
+                <h2 class="title-item">Dove trovarsi
+                    <br>é facile</h2>
+
+                <p class="paragraph-item">Mettiti comodo in un canale vocale quando
+                <br>hai tempo. Gli amici nel tuo server possono
+                <br>vedere che sei lì e unirsi istantaneamente
+                <br>senza dover chiamare
+                </p>
+            </div>
+            <div class="col-60">
+                <img src="./IMG/item2.svg" alt="item2">
+            </div>
+           </div>
+        <!-- dove trovarsi section end -->
+
+        <!-- da pochi section -->
+        <div class="container section-ct">
+            <div class="col-60">
+                <img src="./IMG/item3.svg" alt="item3">
+            </div>
+            <div class="col-40">
+                <h2 class="title-item">Da pochi a un<br>fandom</h2>
+
+                <p class="paragraph-item">Dai inizio a una community di qualsiasi
+                <br>dimensione con strumenti di moderazione e
+                <br>accesso ai membri personalizzabile.
+                <br>Concedi ai membri poteri speciali, crea
+                <br>canali privati, e molto altro.
+            </p>
+            </div>
+           </div>
+        <!-- da pochi section end -->
+
+        <!-- tecnologia affidabile section -->
+         <div class="tech-container">
+            <div class="big-img">
+                <h2 class="title-item">Tecnologia affidabile per tenersi in contatto</h2>
+                <p class="paragraph-item">Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda
+                    <br>gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.
+                </p>
+                <img src="./IMG/item4-big.svg" alt="chilling">
+                <h3 class="tech-subtitle">Pronto a iniziare la tua avventura?</h3>
+                <a class="btn-tech" href="">&downarrow; bottone scarica per mac</a>
+            </div>      
+         </div>
+        <!-- tecnologia affidabile section end -->
     </main>
     <!-- main end -->
 
     <!-- footer -->
     <footer>
-        <div></div>
+        <div class="foot-container">
+            <div class="foot-list">
+                <div>
+                    <h2 class="foot-title">Il tuo posto per<br>parlare</h2>
+                    <div class="lg-sc">
+                        <img class="flag" src="./IMG/ita.png" alt="ita-flag">
+                        <h5 class="language">Italiano &triangledown;</h5>
+                    </div>
+                        <ul class="list-social">
+                            <li>
+                                <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+                            </li>
+                        </ul>
+                </div>
+                
+                <ul class="list-style">
+                    <li class="title-list-style">Prodotto</li>
+                    <li>Scarica</li>
+                    <li>Perché Discord</li>
+                    <li>Nitro</li>
+                    <li>Sicurezza</li>
+                    <li>Assistenza</li>
+                </ul>
+                <ul class="list-style">
+                    <li class="title-list-style">Prodotto</li>
+                    <li>Chi siamo</li>
+                    <li>Lavora con noi</li>
+                    <li>Marchio</li>
+                    <li>Redazione</li>
+                    <li>Negozio</li>
+                </ul>
+                <ul class="list-style">
+                    <li class="title-list-style">Prodotto</li>
+                    <li>Scarica</li>
+                    <li>Perché Discord</li>
+                    <li>Nitro</li>
+                    <li>Sicurezza</li>
+                    <li>Assistenza</li>
+                    <li>Scarica</li>
+                    <li>Perché Discord</li>
+                    <li>Nitro</li>
+                    <li>Sicurezza</li>
+                    <li>Assistenza</li>
+                </ul>
+                <ul class="list-style">
+                    <li class="title-list-style">Prodotto</li>
+                    <li>Scarica</li>
+                    <li>Perché Discord</li>
+                    <li>Nitro</li>
+                    <li>Sicurezza</li>
+                     <li>Assistenza</li>
+                </ul>
+                </div>
+            </div>
     </footer>
     <!-- footer end -->
 </body>
+
 </html>

@@ -2,6 +2,10 @@
     --primary-color:#ffffff;
     --secondary-color: #255EE9;
     --grey-color: #23272A;
+    --black-color: #000000;
+    --lightblue-color: #add8e6;
+    --violet-color: #7289DA;
+    --lightgrey-color: #F6F6F6;
 }
 
 /* RESET */
@@ -10,11 +14,11 @@
     margin: 0;
     padding: 0;
     }
+/* RESET END */
 
 img {
     max-width: 100%;
 }
-/* RESET END */
 
 /* COMMON */
 body {
@@ -23,69 +27,243 @@ body {
 /* COMMON */
 
 /* UTILITIES CLASSES */
-.text-header-align {
-    text-align: center;
-    color: var(--primary-color);
+.flex {
+    display: flex;
 }
 
-.button-white {
-    border-radius: 20px;
-    border-color: var(--primary-color);
+.center-between {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.center-list {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5%;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.py-40 {
+    padding: 40px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white-btn {
     background-color: var(--primary-color);
-    color: var(--grey-color);
-    height: 120px;
+    padding: 8px 5px 5px 5px;
+    border: 1px solid var(--primary-color);
+    border-radius: 20px;
     text-align: center;
-    padding: 10px 10px;
-    font-size: small;
-    font-weight: bold;
 }
 
-.button-dark {
-    border-radius: 20px;
-    border-color: var(--grey-color);
-    background-color: var(--grey-color);
-    color: var(--primary-color);
-    height: 120px;
-    text-align: center;
-    padding: 10px 10px 10px 10px;
-    font-size: small;
-    font-weight: 2rem;
+.section-ct {
+    background-color: var(--primary-color);
+    height: 600px;
+    padding: 80px 100px;
+}
+
+.section-ct-grey {
+    background-color: var(--lightgrey-color);
+}
+
+.title-item {
+    font-size: 3rem;
+}
+
+.paragraph-item {
+    padding-top: 20px;
+    line-height: 30px;
 }
 /* UTILITIES CLASSES */
  
 /* HEADER */
-.header-container {
-    max-width: 100%;
+.header {
     height: 80px;
-    background-color: var(--secondary-color) 
+    background-color: var(--secondary-color);
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.logo {
+    height: 40px;
+    width: 20%;
+    background-color: var(--secondary-color);
+    padding-left: 160px;
+}
+
+.navbar {
+    height: 40px;
+    width: 60%;
+    background-color: var(--secondary-color);
+}
+
+.btn-login {
+    height: 40px;
+    width: 20%;
+    background-color: var(--secondary-color);
+}
+.list {
+    list-style: none;
+    color: var(--primary-color);
+    height: 100%;
+}
+.flex-btn {
+    align-items: flex-end;
 }
 /* HEADER END */
 
 /* HERO HEADER */
-.hero-box {
-    align-content: center;
+.bg-blue {
     background-image: url(../IMG/jumbo.png);
     background-size: cover;
-    max-width: 100%;
-    height: 560px;
 }
-.title {
-    font-size: 3rem;
-}
-.paragraph {
-    padding-top: 30px;
-    line-height: 25px;
-}
-
-.buttons {
+.bg-pink {
+    width: 40%;
+    height: 500px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 120px;
 }
-
+.hero-title {
+    font-size: 3rem;
+    color: var(--primary-color);
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.hero-paragraph {
+    font-size: 1rem;
+    color: var(--primary-color);
+    line-height: 20px;
+    padding-bottom: 30px;
+}
+.btn-hero-white {
+    background-color: var(--primary-color);
+    padding: 10px 15px 10px 15px;
+    border: 1px solid var(--primary-color);
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.btn-hero-black {
+    background-color: var(--grey-color);
+    padding: 10px 15px 10px 15px;
+    border: 1px solid var(--grey-color);
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--primary-color);
+}
+.btn-hero {
+    margin: 20px;
+}
 /* HERO HEADER END */
 
-/* MAIN */
-/* MAIN END */
 
-/* FOOTER */
-/* FOOTER END */
+/* tecnologia section */
+.tech-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    text-align: center;
+    height: 900px;
+}
+.tech-subtitle {
+    font-size: 1,5rem;
+    padding: 20px;
+}
+.btn-tech {
+    background-color: var(--violet-color);
+    padding: 10px 15px 10px 15px;
+    border: 1px solid var(--violet-color);
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+/* tecnologia section */
+
+
+/*footer*/
+.foot-container {
+    background-color: var(--grey-color);
+    padding: 100px 120px 60px 120px;
+}
+
+.foot-list {
+    display: flex;
+    align-items: first baseline;
+    justify-content: space-around;
+}
+
+.foot-title {
+    color: var(--violet-color);
+    font-size: 2rem;
+}
+
+.language {
+    margin-top: 20px;
+    color: var(--primary-color);
+    font-size: medium;
+    padding-top: 10px;
+
+}
+
+.lg-sc {
+    display: flex;
+}
+
+.flag {
+    height: 15px;
+    margin-top: 30px;
+    padding-right: 10px;
+
+   
+}
+
+.list-social {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+/*footer list*/
+.list-style {
+    list-style: none;
+    color: var(--primary-color);
+    font-size: medium;
+    line-height: 40px;
+}
+.title-list-style {
+    color: var(--violet-color);
+    font-weight: bold;
+    font-size: large;
+}
+/*footer list*/
+
+.line-end {
+    border-color: #7289DA;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.foot-container {
+    align-items: center;
+    justify-content: space-between; 
+}
+
+/*footer*/
